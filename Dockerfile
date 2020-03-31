@@ -94,7 +94,7 @@ USER octoprint
 
 WORKDIR /home/octoprint
 
-RUN git clone https://github.com/KevinOConnor/klipper
+RUN git clone https://github.com/PedroC1999/klipper
 
 RUN ./klipper/scripts/install-ubuntu-18.04.sh
 
